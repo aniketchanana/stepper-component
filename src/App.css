@@ -1,0 +1,78 @@
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.roundedBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+.mt-2 {
+  margin-top: 8px;
+}
+.ml-2 {
+  margin-left: 8px;
+}
+.mr-2 {
+  margin-right: 8px;
+}
+.m-2 {
+  margin: 8px;
+}
+.mx-2 {
+  margin: 0px 8px;
+}
+.my-2 {
+  margin: 8px 0px;
+}
+
+.animate-width {
+  transition: 0.25s width ease;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+
+.progress-line {
+  transition: 0.25s width ease;
+  position: absolute;
+  border-bottom: 1px solid black;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
